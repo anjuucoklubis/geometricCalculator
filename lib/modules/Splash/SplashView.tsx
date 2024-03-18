@@ -14,7 +14,7 @@ const SplashView: React.FC<SplashViewProps> = ({navigation}) => {
         index: 0,
         routes: [{name: 'OnBoardingView'}],
       });
-    }, 5000);
+    }, 1000);
     return () => clearTimeout(timeout);
   }, [navigation]);
   return (
